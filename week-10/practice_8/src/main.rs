@@ -9,12 +9,12 @@ fn main() {
    //initialize a structure
     let emp1 = Employee {
         company:String::from("Microsoft Corporation"),
-        name:String::from("Satya Nadella"),
+        ceo:String::from("Satya Nadella"),
         age:56
     };
     let emp2 = Employee{
-        company:String::from("Google Inc");
-        ceo:String::from("Sundai Pichai")
+        company:String::from("Google Inc"),
+        ceo:String::from("Sundai Pichai"),
         age:51
     };
     //pass emp1 and emp2 to display()

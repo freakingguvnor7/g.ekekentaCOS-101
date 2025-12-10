@@ -5,7 +5,7 @@ fn main() {
 
     let v2 = v;      // moves ownership to v2
 
-    display(v2);
+    display(v2.clone());
     // v2 is moved to display annd v2 is invalidated
 
     println!("In main {:?}",v2);
